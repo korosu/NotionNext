@@ -57,6 +57,11 @@ const GlobalHead = props => {
 
   return (
     <Head>
+        <script 
+          defer 
+          src="https://umami.888122.xyz/script.js" 
+          data-website-id="32d034c2-75e4-402f-ab8d-40b7b92840f3">
+        </script>
       <link rel='icon' href={favicon} />
       <title>{title}</title>
       <meta name='theme-color' content={siteConfig('BACKGROUND_DARK')} />
